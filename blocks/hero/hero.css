@@ -1,3 +1,14 @@
+:root {
+  --link-color: #035fe6;
+--link-hover-color: #136ff6;
+--background-color: white;
+--header-background: pink;
+--light-color: #eee;
+--dark-color: #ccc;
+--text-color: black;
+--background-red: #BA0C2F;
+}
+
 main .hero-container > div {
   max-width: unset;
 }
@@ -16,7 +27,7 @@ main .hero-container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color:  --background-color;
   background-color: --background-red;
 }
 
