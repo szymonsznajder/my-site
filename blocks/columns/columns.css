@@ -23,7 +23,7 @@
   .columns > div {
     align-items: center;
     flex-direction: unset;
-    gap: 32px;
+    /* gap: 32px; */
   }
 
   .columns > div > div {
@@ -32,6 +32,10 @@
   }
 }
 
-.places-teaser {
-  background-color: beige;
+.places-teaser div {
+  background-color:  var(--light-color);
+}
+
+.places-teaser div:nth-child(odd) {
+  background-color:  var(--dark-color);;
 }
