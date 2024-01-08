@@ -31,3 +31,7 @@
     order: unset;
   }
 }
+
+.places-teaser {
+  background-color: beige;
+}
