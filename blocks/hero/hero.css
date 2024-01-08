@@ -1,14 +1,3 @@
-:root {
-  --link-color: #035fe6;
---link-hover-color: #136ff6;
---background-color: white;
---header-background: pink;
---light-color: #eee;
---dark-color: #ccc;
---text-color: black;
---background-red: #BA0C2F;
-}
-
 main .hero-container > div {
   max-width: unset;
 }
@@ -27,8 +16,10 @@ main .hero-container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color:  --background-color;
-  background-color: --background-red;
+  display: inline-block;
+  padding: 1rem 2rem;
+  color:  var(--background-color);
+  background-color: var(--background-red);
 }
 
 .hero picture {
