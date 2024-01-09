@@ -62,7 +62,9 @@ header nav p {
 
 header nav a:any-link {
   color: currentcolor;
+  font-family: var( --body-font-family);
 }
+
 
 /* hamburger */
 header nav .nav-hamburger {
@@ -242,6 +244,19 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
     font-weight: 500;
     color: white;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li a,
+  header nav .nav-sections .default-content-wrapper > ul > li a {
+    transform: translateY(0);
+    transition: all .3s ease-in;
+    display: inline-block;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li:hover a,
+  header nav .nav-sections .default-content-wrapper > ul > li:focus a {
+    transform: translateY(-.125rem);
+    text-decoration: none;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
