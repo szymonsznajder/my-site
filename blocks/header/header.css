@@ -5,15 +5,12 @@ header {
   left: 0;
   right: 0;
   width: 1200px;
-  margin-inline: auto;
+  margin: 3.7rem auto;
 }
 
 header .nav-wrapper {
-  /* background-color: var(--background-color); */
-  /* background: transparent; */
   width: 100%;
   z-index: 2;
-  /* position: fixed; */
 }
 
 header nav {
@@ -42,7 +39,7 @@ header nav[aria-expanded="true"] {
 
 @media (width >= 600px) {
   header nav {
-    padding: 0 2rem;
+    padding: 0;
   }
 }
 
@@ -244,6 +241,7 @@ header nav .nav-sections ul > li > ul > li {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
+    color: white;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
