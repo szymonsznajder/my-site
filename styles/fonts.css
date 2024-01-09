@@ -1,21 +1,26 @@
-/* fallback font for Avenir Next LT Pro Regular (normal - 400) */
     @font-face {
-      font-family: "avenir-next-lt-pro-regular-normal-400-fallback";
-      size-adjust: 102.2%;
-      src: local("Arial");
+      font-family: "Avenir Next LT Pro Regular";
+      src:local("Arial"), 
+           url("../fonts/AvenirNextLTPro-Regular.woff2") format("woff2"),
+           url("../fonts/AvenirNextLTPro-Regular.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
     }
-
-    /* fallback font for Avenir Next LT Pro Bold (normal - 400) */
+    
     @font-face {
-      font-family: "avenir-next-lt-pro-bold-normal-400-fallback";
-      size-adjust: 108.991%;
-      src: local("Arial");
+      font-family: "Avenir Next LT Pro Bold";
+      src: local("Arial"),
+           url("../fonts/AvenirNextLTPro-Bold.woff2") format("woff2"),
+           url("../fonts/AvenirNextLTPro-Bold.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
     }
-
-    /* fallback font for Avenir Next LT Pro Demi (normal - 400) */
+    
     @font-face {
-      font-family: "avenir-next-lt-pro-demi-normal-400-fallback";
-      size-adjust: 103.741%;
-      src: local("Arial");
+      font-family: "Avenir Next LT Pro Demi";
+      src: local("Arial"),
+           url("../fonts/AvenirNextLTPro-Demi.woff2") format("woff2"),
+           url("../fonts/AvenirNextLTPro-Demi.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
     }
-
