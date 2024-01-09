@@ -1,7 +1,7 @@
-    @font-face {
+/* fallback font for Avenir Next LT Pro Regular (normal - 400) */
+@font-face {
       font-family: "Avenir Next LT Pro Regular";
-      src:local("Arial"), 
-           url("../fonts/AvenirNextLTPro-Regular.woff2") format("woff2"),
+      src: url("../fonts/AvenirNextLTPro-Regular.woff2") format("woff2"),
            url("../fonts/AvenirNextLTPro-Regular.woff") format("woff");
       font-weight: normal;
       font-style: normal;
@@ -9,8 +9,7 @@
     
     @font-face {
       font-family: "Avenir Next LT Pro Bold";
-      src: local("Arial"),
-           url("../fonts/AvenirNextLTPro-Bold.woff2") format("woff2"),
+      src: url("../fonts/AvenirNextLTPro-Bold.woff2") format("woff2"),
            url("../fonts/AvenirNextLTPro-Bold.woff") format("woff");
       font-weight: normal;
       font-style: normal;
@@ -18,8 +17,7 @@
     
     @font-face {
       font-family: "Avenir Next LT Pro Demi";
-      src: local("Arial"),
-           url("../fonts/AvenirNextLTPro-Demi.woff2") format("woff2"),
+      src: url("../fonts/AvenirNextLTPro-Demi.woff2") format("woff2"),
            url("../fonts/AvenirNextLTPro-Demi.woff") format("woff");
       font-weight: normal;
       font-style: normal;
