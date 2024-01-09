@@ -22,9 +22,10 @@
   --background-red: #BA0C2F;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: Avenir Next LT Pro Demi, Arial,sans-serif;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --fixed-font-family: Avenir Next LT Pro Regular, Arial,sans-serif;
+  --fixed-font-family: Avenir Next LT Pro Bold, Arial,sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
