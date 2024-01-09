@@ -8,6 +8,7 @@ main .hero-container {
 
 .hero {
     position: relative;
+    z-index: -1;
     display: flex;
     align-items: center;
     padding: 32px;
