@@ -10,6 +10,8 @@
  * governing permissions and limitations under the License.
  */
 
+ 
+
 :root {
   /* colors */
   --link-color: #035fe6;
@@ -19,7 +21,22 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
-  --background-red: #BA0C2F;
+  --background-red: #f91351;
+
+  /* new colors */
+  --color-white:                   #FFF;
+  --color-black:                   #000;
+  --color-heart-red:               #F91351;
+  --color-nocturnal-blue:          #212A35;
+  --color-space-gray:              #EFF1F4;
+  --color-surgical-white:          #FFF;
+  --color-pitch-black:             #161616;
+  --color-wild-seal:               #4D555D;
+  --color-rocky-road:              #7A7F86;
+  --color-cloudy-sky:              #E0E4EA;
+  --color-western-snow:            #F7F9FC;
+  
+
 
   /* fonts */
   --body-font-family: "Avenir Next LT Pro Demi", Arial,sans-serif;
@@ -53,9 +70,9 @@
 
 @media (width >= 900px) {
   :root {
-    --heading-font-size-xxl: 60px;
-    --heading-font-size-xl: 48px;
-    --heading-font-size-l: 36px;
+    --heading-font-size-xxl: rem(50px);
+    --heading-font-size-xl: rem(36px);
+    --heading-font-size-l: rem;
     --heading-font-size-m: 30px;
     --heading-font-size-s: 24px;
     --heading-font-size-xs: 22px;
@@ -147,12 +164,13 @@ a.button:any-link, button {
   font-weight: 600;
   cursor: pointer;
   color: var(--background-color);
-  background-color: var(--link-color);
+  background-color: var(--background-red);
   margin: 16px 0;
+  padding: .405rem 1.25rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 4px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
