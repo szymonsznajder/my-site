@@ -5,4 +5,6 @@ export default function decorate(block) {
   const blockquote = document.createElement('blockquote');
 
   blockquote.innerHTML = `${quoteDiv.innerHTML}`;
+
+  quoteDiv.parentElement.replaceWith(blockquote);
 }
