@@ -1,4 +1,4 @@
-export default function decorate(block) {
+export default function decorate(quote) {
   const quoteDiv = block.querySelector(':scope > div > div');
   console.log(quoteDiv);
 
