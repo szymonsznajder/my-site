@@ -3,4 +3,6 @@ export default function decorate(block) {
   console.log(quoteDiv);
 
   const blockquote = document.createElement('blockquote');
+
+  blockquote.innerHTML = `${quoteDiv.innerHTML}`;
 }
