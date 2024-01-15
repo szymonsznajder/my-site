@@ -25,7 +25,6 @@ main .hero-container {
     max-width: 70%;
 }
 
-
 .hero h3 {
     display: inline-block;
     font-size: var(--heading-font-size-xl);
