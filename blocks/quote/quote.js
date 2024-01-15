@@ -9,9 +9,9 @@ export default function decorate(block) {
   quoteDiv.parentElement.replaceWith(blockquote);
 
   const authorDiv = block.querySelector(':scope > div > div');
-  if(authorDiv){
+  if (authorDiv) {
     const p = document.createElement('p');
     p.innerHTML = `<em> - ${authorDiv.innerText}</em>`;
-    authorDiv.parentElement.replaceWith(p)
+    authorDiv.parentElement.replaceWith(p);
   }
 }
