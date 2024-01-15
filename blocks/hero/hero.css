@@ -34,7 +34,7 @@ main .hero-container {
 
 .hero h2 {
     font-size: 3.4375rem;
-    margin: 0;
+    margin: #ffffff;
     color: var(--color-white);
     font-family: var(--bold-font-family);
 }
