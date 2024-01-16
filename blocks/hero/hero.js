@@ -1,4 +1,6 @@
 export default function hero(block) {
-  const heroDiv = block.querySelector(':scope > h3');
-  console.log(heroDiv);
+  const heroPretitle = block.querySelector('#adapt-evolve-grow');
+  heroPretitle.classList.add('pretitle');
+
+  const 
 }
